@@ -1,26 +1,22 @@
-# Node.js Random Emoji Generator
+# Node.js Random Color Generator
 
-> Generate random emojis, optionally based on an input
+This application returns a random color in the command line.
 
-Without any user input, print random emoji:
+It works like this:
 
-```bash
-$ node index.js
-🦄
-$ node index.js
-🍓
-```
+When somebody enters a specific command in the command line, a block of approximately 31x9 `#` characters and of a random color (using hex code, e.g. `#ff0000`) is generated.
 
-With user input of a correct emoji name, print emoji:
+It looks pretty close to this:
 
-```bash
-$ node index.js strawberry
-🍓
-```
+![Screen Shot 2020-09-09 at 15 53 33](https://user-images.githubusercontent.com/1935696/92607675-b56bd700-f2b4-11ea-9085-67af9369fa71.png)
 
-With user input of an incorrect emoji name, print error message that emoji doesn't exist:
+It is able to not only accept the command itself, but also the request for a:
 
-```bash
-$ node index.js strazzberry
-Emoji not found
-```
+- hue (e.g. green or red or blue)
+- luminosity (e.g. light or dark)
+
+...and then generates random colors that match those choices.
+
+**For example:**
+
+![Screen Shot 2020-09-09 at 15 54 42](https://user-images.githubusercontent.com/1935696/92607766-daf8e080-f2b4-11ea-9d6d-3bd8501da443.png)
