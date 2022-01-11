@@ -1,9 +1,12 @@
 {
-  "name": "random-emoji-generator-jan-2022",
+  "name": "colors",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "repository": "git@github.com:upleveled/random-emoji-generator-jan-2022.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/upleveled/random-emoji-generator-jan-2022.git"
+  },
   "author": "Karl Horky <karl.horky@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -37,6 +40,14 @@
     "eslint-plugin-react": "7.28.0"
   },
   "dependencies": {
-    "node-emoji": "^1.11.0"
+    "chalk": "^5.0.0"
+  },
+  "description": "This application returns a random color in the command line.",
+  "bugs": {
+    "url": "https://github.com/upleveled/random-emoji-generator-jan-2022/issues"
+  },
+  "homepage": "https://github.com/upleveled/random-emoji-generator-jan-2022#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
