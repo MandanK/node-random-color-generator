@@ -101,12 +101,3 @@ if (numberOfArguments === 2) {
     );
   }
 }
-
-// !  } else {
-// !    // Print chosen emoji
-// !    console.log(emoji.get(emojiInput));
-// !  }
-// !} else {
-// !  // Print random emoji
-//!  console.log(emoji.random().emoji);
-// ! }
